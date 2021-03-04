@@ -1,4 +1,4 @@
-from gsscogs/databaker:latest
+FROM gsscogs/databaker:latest
 
 RUN pip install google-cloud-storage==1.36.1
 RUN pip install allure-behave==2.8.36
